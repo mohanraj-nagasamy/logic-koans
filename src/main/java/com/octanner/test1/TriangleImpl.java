@@ -21,7 +21,6 @@ import java.util.List;
      * - 3 elements: segments that form a triangle (i.e. satisfy the condition above)
      * - empty array if there are no such segments
      */
-    @Override
     public Integer[] getTriangleSides(Integer[] segments) {
 
         List<Integer> list = new ArrayList<Integer>();
